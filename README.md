@@ -9,19 +9,40 @@ The Online Exam Proctor System is a computer vision-based project designed to en
 ## Main Features
 
 The features included in the project are as follows:
-### (1)Website Application
+
+### (1) **Website Application**
 On the student’s webpage side, there are “Login” page, “Rules & Regulations” page, “System compatibility check” page, “User face input collection” page, “Exam” page, and the “Result” page.
-On the admin’s webpage side, there are “Students Listing” page (CRUD process of students can be performed) and “Exam Results” page (Each Student Result Status, Total Scores, Trust Score, and all violation record details can be reviewed)
-### (2)Face Detection
+On the admin’s webpage side, there are “Students Listing” page (CRUD process of students can be performed) and “Exam Results” page (Each Student Result Status, Total Scores, Trust Score, and all violation record details can be reviewed)
+
+### (2) **Face Detection**
 Face Verification: To detect if the person verified is answering or someone else is when taking the exam.
 Face Liveness: To verify the liveness of the students by detecting and preventing the use of static images or videos for authentication.
-### (3)Movement, People and Devices Detection
+
+### (3) **Movement Detection**
 Distracted Movement Detection: To detect and monitor the student's head position and movements to ensure exam integrity and to prevent cheating.
 Multiple Faces Detection: To monitor and verify the identity of the individual presence during the exam and to ensure they are not impersonating the actual exam taker.
-Electronic Devices Detection: to identify and prevent the use of unauthorized electronic devices during the exam.
-### (4)Screen Detection
+
+### (4) **Screen Detection**
 Prohibited Keys Detection: To identify and flag the use of restricted or unauthorized keys on the computer’s keyboard during the exam in order to prevent cheating.
 ‘Move away from the Test Interface’ Detection: To monitor and detect any attempts made by the student to switch or interact with other windows or applications during the exam.
-(5)Voice Detection
-Human Voice Detection: To identify and flag instances of unauthorized communication or external assistance during exams.
+
+### (5) **Voice Detection**
 Common Noise Detection: To detect possible noises which may occur during the examination process to identify whether it is cheating or not.
+
+## Tools Utilized
+
+1.Python
+2.Open CV
+3.media pipe
+4.YOLOv8
+5.Dlib
+6.Flask 
+7.MySQL
+8.PyAutoGUI
+9.PyGetWindow
+
+## Getting Started
+
+- First, you need to clone the repo: (https://github.com/Raghu2411/So_Chat.git)
+- Run the `requirement.txt` file for the installation.
+- Run the `app.py` file.
