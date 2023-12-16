@@ -42,7 +42,6 @@ Common Noise Detection: To detect possible noises which may occur during the exa
 9.PyGetWindow
 
 ## Getting Started
-
-- First, you need to clone the repo: (https://github.com/Raghu2411/So_Chat.git)
+- First, you need to clone the repo: (https://github.com/Raghu2411/The-Online-Exam-Proctor.git)
 - Run the `requirement.txt` file for the installation.
 - Run the `app.py` file.
